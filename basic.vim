@@ -8,7 +8,6 @@
 :set mouse=a
 :set fileencodings=ucs-bom,utf-8,sjis,default
 :set background=dark
-:set scrolloff=25
 :set cursorline
 :set cmdheight=1
 

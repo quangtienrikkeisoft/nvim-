@@ -7,6 +7,8 @@ let NERDTreeShowHidden=0
 let NERDTreeChDirMode=0
 let NERDTreeShowBookmarks=1
 
+let g:NERDTreeMinimalMenu=1
+
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
