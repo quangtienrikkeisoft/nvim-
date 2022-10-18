@@ -1,7 +1,8 @@
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-Plug 'scrooloose/nerdtree'
+"Plug 'scrooloose/nerdtree'
+Plug 'lambdalisue/fern.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'https://github.com/neoclide/coc.nvim'	, {'branch': 'release'}
 Plug 'https://github.com/tpope/vim-commentary'
@@ -19,9 +20,10 @@ Plug 'psf/black', { 'tag': '19.10b0' }
 call plug#end()
 
 source $HOME/.config/nvim/basic.vim
-source $HOME/.config/nvim/nerdtree.vim
+"source $HOME/.config/nvim/nerdtree.vim
 source $HOME/.config/nvim/fzf.vim
 source $HOME/.config/nvim/coc.vim
+source $HOME/.config/nvim/fern.vim
 source $HOME/.config/nvim/git.vim
 source $HOME/.config/nvim/clang.vim
 source $HOME/.config/nvim/spector.vim
