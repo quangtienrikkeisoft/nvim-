@@ -33,6 +33,10 @@ vnoremap K 5k
 nnoremap j jzz
 nnoremap k kzz
 
+
+map <esc> :noh <CR>
+nmap <F2> :TagbarToggle<CR>
+
 colorscheme gruvbox-material
 
 

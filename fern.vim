@@ -5,6 +5,7 @@
 
 
 noremap <C-t> :Fern . -drawer -reveal=% -toggle -width=35<CR><C-w>=
+noremap <F1> :call OpenFloatTerm()<CR>
 
 function! FernInit() abort
   nmap <buffer><expr>

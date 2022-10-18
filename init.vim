@@ -20,11 +20,9 @@ Plug 'psf/black', { 'tag': '19.10b0' }
 call plug#end()
 
 source $HOME/.config/nvim/basic.vim
-"source $HOME/.config/nvim/nerdtree.vim
 source $HOME/.config/nvim/fzf.vim
 source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/fern.vim
-source $HOME/.config/nvim/git.vim
 source $HOME/.config/nvim/clang.vim
 source $HOME/.config/nvim/spector.vim
 
