@@ -10,7 +10,7 @@
 :set background=dark
 :set cursorline
 :set cmdheight=1
-:set autowriteall
+:set autowrite
 
 nnoremap <Up> <nop>
 nnoremap <Down> <nop> 
@@ -73,4 +73,13 @@ function! OpenFloatTerm()
   " Hook up TermClose event to close both terminal and border windows
   autocmd TermClose * ++once :q | call nvim_win_close(s:border_win, v:true)
 endfunction
+
+
+
+for char in [ '_', '.', ':', ',', ';', '<bar>', '/', '<bslash>', '*', '+', '%' ]
+  execute 'xnoremap i' . char . ' :<C-u>normal! T' . char . 'vt' . char . '<CR>'
+  execute 'onoremap i' . char . ' :normal vi' . char . '<CR>'
+  execute 'xnoremap a' . char . ' :<C-u>normal! F' . char . 'vf' . char . '<CR>'
+  execute 'onoremap a' . char . ' :normal va' . char . '<CR>'
+endfor
 

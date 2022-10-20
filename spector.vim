@@ -1,4 +1,4 @@
-:let g:vimspector_install_gadgets = [ 'debugpy', 'vscode-cpptools', 'CodeLLDB' ]
+:let g:vimspector_install_gadgets = ['vscode-cpptools', 'CodeLLDB' ]
 :let mapleader=" "
 
 nnoremap <leader>st :call vimspector#Launch()<CR>
