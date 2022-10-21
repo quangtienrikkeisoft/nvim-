@@ -83,3 +83,4 @@ for char in [ '_', '.', ':', ',', ';', '<bar>', '/', '<bslash>', '*', '+', '%' ]
   execute 'onoremap a' . char . ' :normal va' . char . '<CR>'
 endfor
 
+

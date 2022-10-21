@@ -4,7 +4,7 @@
 :let g:fern#window_selector_use_popup = 1
 
 
-noremap <C-t> :Fern . -drawer -reveal=% -toggle -width=35<CR><C-w>=
+noremap <C-t> :Fern . -drawer -reveal=% -toggle -width=25<CR><C-w>=
 noremap <F1> :call OpenFloatTerm()<CR>
 
 function! FernInit() abort
@@ -20,13 +20,10 @@ function! FernInit() abort
   
   nmap <buffer> c <Plug>(fern-action-new-path)
   nmap <buffer> r <Plug>(fern-action-rename)
-  nmap <buffer> u <Plug>(fern-action-rename)
-  nmap <buffer> d <Plug>(fern-action-delete)
-  
-  nmap <buffer> m <Plug>(fern-action-new-dir)
+  nmap <buffer> d <Plug>(fern-action-remove)
+  nmap <buffer> m <Plug>(fern-action-move)
   nmap <buffer> R <Plug>(fern-action-reload)
   nmap <buffer> h <Plug>(fern-action-hidden-toggle)
-  nmap <buffer> V <Plug>(fern-action-move)
 
   nmap <buffer> s <Plug>(fern-action-open:split)
   nmap <buffer> v <Plug>(fern-action-open:vsplit)

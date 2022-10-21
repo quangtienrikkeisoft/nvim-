@@ -4,6 +4,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 Plug 'lambdalisue/fern.vim'
 Plug '907th/vim-auto-save'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'https://github.com/bfrg/vim-cpp-modern'
 Plug 'https://github.com/neoclide/coc.nvim'	, {'branch': 'release'}
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/vim-airline/vim-airline'
