@@ -5,6 +5,7 @@ Plug 'lambdalisue/fern.vim'
 Plug '907th/vim-auto-save'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'https://github.com/bfrg/vim-cpp-modern'
+Plug 'voldikss/vim-floaterm'
 Plug 'https://github.com/neoclide/coc.nvim'	, {'branch': 'release'}
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/vim-airline/vim-airline'
@@ -27,6 +28,8 @@ source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/fern.vim
 source $HOME/.config/nvim/clang.vim
 source $HOME/.config/nvim/spector.vim
+source $HOME/.config/nvim/float_term.vim
+source $HOME/.config/nvim/lazygit.vim
 
 
 

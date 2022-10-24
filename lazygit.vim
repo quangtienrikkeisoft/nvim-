@@ -1,1 +1,1 @@
-nnoremap <leader>gg :lazygit
+nnoremap <leader>gg :LazyGit
