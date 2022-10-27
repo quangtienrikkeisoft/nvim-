@@ -1,16 +1,12 @@
 :set number
 :set relativenumber
 :set autoindent
-:set tabstop=4
+:set tabstop=2
 :set shiftwidth=4
 :set smarttab
-:set softtabstop=4
-:set mouse=a
 :set fileencodings=ucs-bom,utf-8,sjis,default
 :set background=dark
-:set cursorline
 :set cmdheight=1
-:set autowrite
 
 nnoremap <Up> <nop>
 nnoremap <Down> <nop> 
