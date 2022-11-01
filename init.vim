@@ -14,6 +14,7 @@ Plug 'https://github.com/preservim/tagbar'
 Plug 'https://github.com/sainnhe/gruvbox-material'
 Plug 'puremourning/vimspector', {'do': './install_gadget.py --enable-c --enable-cpp'}
 Plug 'kdheepak/lazygit.nvim'
+Plug 'https://github.com/gkjgh/cobalt'
              
 call plug#end()
 

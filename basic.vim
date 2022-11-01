@@ -33,7 +33,9 @@ nnoremap k kzz
 map <esc> :noh <CR>
 nmap <F2> :TagbarToggle<CR>
 
-colorscheme gruvbox-material
+:colorscheme gruvbox-material
+"colorscheme PaperColor
+"colorscheme cobalt
 
 for char in [ '_', '.', ':', ',', ';', '<bar>', '/', '<bslash>', '*', '+', '%' ]
   execute 'xnoremap i' . char . ' :<C-u>normal! T' . char . 'vt' . char . '<CR>'

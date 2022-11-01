@@ -2,6 +2,7 @@
 	"diagnostic.virtualText": true,
 	"diagnostic.virtualTextCurrentLineOnly": false,
 	"languageserver": {
+
 	}
 }
 
